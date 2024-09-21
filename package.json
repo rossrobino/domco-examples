@@ -1,0 +1,27 @@
+{
+	"name": "domco-examples",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"packageManager": "npm@10.8.3",
+	"workspaces": [
+		"packages/*",
+		"apps/*"
+	],
+	"scripts": {
+		"format": "prettier --write .",
+		"build": "turbo build"
+	},
+	"devDependencies": {
+		"@robino/prettier": "^0.1.1",
+		"@robino/tsconfig": "^0.2.2",
+		"domco": "^2.0.0",
+		"prettier": "^3.3.3",
+		"typescript": "^5.6.2",
+		"turbo": "^2.1.2",
+		"vite": "^5.4.6"
+	},
+	"dependencies": {
+		"uico": "^0.3.2"
+	}
+}

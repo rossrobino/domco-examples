@@ -1,0 +1,19 @@
+{
+	"name": "domco-solid",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"check": "tsc",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"vite-plugin-solid": "^2.10.2"
+	},
+	"dependencies": {
+		"@solidjs/router": "^0.14.5",
+		"solid-js": "^1.8.22"
+	}
+}
