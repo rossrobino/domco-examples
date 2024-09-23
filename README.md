@@ -13,6 +13,6 @@ Examples are located in the `apps/` directory.
 
 ## SSR
 
-- react-router
-- solid
-- vue
+- [react-router](https://github.com/rossrobino/domco-examples/tree/main/apps/react-router)
+- [solid](https://github.com/rossrobino/domco-examples/tree/main/apps/solid)
+- [vue](https://github.com/rossrobino/domco-examples/tree/main/apps/vue)
