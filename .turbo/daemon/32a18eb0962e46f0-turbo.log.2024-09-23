@@ -1,0 +1,30 @@
+2024-09-23T20:28:11.311430Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/.turbo-cookie"), AnchoredSystemPathBuf(".turbo/cookies/1.cookie")}
+2024-09-23T20:28:11.311443Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-23T20:28:11.611402Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/react-router/vite.config.ts.timestamp-1727123291557-098645d1acbd6.mjs"), AnchoredSystemPathBuf("apps/solid/vite.config.ts.timestamp-1727123291556-ad32fcc2bdfe5.mjs"), AnchoredSystemPathBuf("apps/vue/vite.config.ts.timestamp-1727123291556-456378c1d166b.mjs")}
+2024-09-23T20:28:11.611413Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("domco-solid"), path: AnchoredSystemPathBuf("apps/solid") }, WorkspacePackage { name: Other("domco-vue"), path: AnchoredSystemPathBuf("apps/vue") }, WorkspacePackage { name: Other("domco-react-router"), path: AnchoredSystemPathBuf("apps/react-router") }}))
+2024-09-23T20:28:11.711899Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/vue/vite.config.ts.timestamp-1727123291556-456378c1d166b.mjs")}
+2024-09-23T20:28:11.711916Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("domco-vue"), path: AnchoredSystemPathBuf("apps/vue") }}))
+2024-09-23T20:28:12.012506Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/solid/vite.config.ts.timestamp-1727123291556-ad32fcc2bdfe5.mjs")}
+2024-09-23T20:28:12.012519Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("domco-solid"), path: AnchoredSystemPathBuf("apps/solid") }}))
+2024-09-23T20:28:12.211451Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/react-router/vite.config.ts.timestamp-1727123292144-7c68ff88f0868.mjs"), AnchoredSystemPathBuf("apps/vue/vite.config.ts.timestamp-1727123292167-7d84c54e865d.mjs")}
+2024-09-23T20:28:12.211462Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("domco-vue"), path: AnchoredSystemPathBuf("apps/vue") }, WorkspacePackage { name: Other("domco-react-router"), path: AnchoredSystemPathBuf("apps/react-router") }}))
+2024-09-23T20:28:12.230200Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-23T20:28:12.230215Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-23T20:28:12.310708Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/solid/vite.config.ts.timestamp-1727123292289-477402b41cb02.mjs")}
+2024-09-23T20:28:12.310718Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("domco-solid"), path: AnchoredSystemPathBuf("apps/solid") }}))
+2024-09-23T20:28:12.324024Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-23T20:29:07.410650Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/2.cookie")}
+2024-09-23T20:29:07.410665Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-09-23T20:29:07.710249Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/solid/vite.config.ts.timestamp-1727123347635-02ebdeba9ab34.mjs"), AnchoredSystemPathBuf("apps/react-router/vite.config.ts.timestamp-1727123347635-b4dd6182e1838.mjs"), AnchoredSystemPathBuf("apps/vue/vite.config.ts.timestamp-1727123347635-34be2901620e1.mjs")}
+2024-09-23T20:29:07.710268Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("domco-solid"), path: AnchoredSystemPathBuf("apps/solid") }, WorkspacePackage { name: Other("domco-react-router"), path: AnchoredSystemPathBuf("apps/react-router") }, WorkspacePackage { name: Other("domco-vue"), path: AnchoredSystemPathBuf("apps/vue") }}))
+2024-09-23T20:29:07.710330Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-23T20:29:07.739615Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-23T20:29:08.009665Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/solid/vite.config.ts.timestamp-1727123347635-02ebdeba9ab34.mjs")}
+2024-09-23T20:29:08.009684Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("domco-solid"), path: AnchoredSystemPathBuf("apps/solid") }}))
+2024-09-23T20:29:08.310147Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/react-router/vite.config.ts.timestamp-1727123348244-ab9c1874b7386.mjs"), AnchoredSystemPathBuf("apps/vue/vite.config.ts.timestamp-1727123348231-83dfd421cea84.mjs")}
+2024-09-23T20:29:08.310157Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("domco-react-router"), path: AnchoredSystemPathBuf("apps/react-router") }, WorkspacePackage { name: Other("domco-vue"), path: AnchoredSystemPathBuf("apps/vue") }}))
+2024-09-23T20:29:08.334085Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-23T20:29:08.334268Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-09-23T20:29:08.410068Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/solid/vite.config.ts.timestamp-1727123348356-07b46e723edc9.mjs")}
+2024-09-23T20:29:08.410079Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("domco-solid"), path: AnchoredSystemPathBuf("apps/solid") }}))
+2024-09-23T20:29:08.410094Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun

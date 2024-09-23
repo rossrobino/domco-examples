@@ -1,0 +1,5 @@
+@import "uico";
+
+body {
+	margin: var(--size-6);
+}

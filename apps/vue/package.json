@@ -1,0 +1,19 @@
+{
+	"name": "domco-vue",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"check": "tsc",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"vue": "^3.4.29",
+		"vue-router": "^4.3.3"
+	  },
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^5.1.4"
+	}
+}
