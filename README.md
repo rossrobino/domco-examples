@@ -15,3 +15,4 @@ Examples are located in the `apps/` directory.
 
 - react-router
 - solid
+- vue
