@@ -12,7 +12,14 @@ Examples are located in the `apps/` directory.
 - `npm run dev` from one of the app directories starts the dev server.
 - Copy `apps/basic/` to create another example.
 
-## SSR
+## Table of contents
+
+### Do it yourself
+
+- [basic](https://github.com/rossrobino/domco-examples/tree/main/apps/basic)
+- [streaming](https://github.com/rossrobino/domco-examples/tree/main/apps/streaming)
+
+### Framework examples
 
 - [react-router](https://github.com/rossrobino/domco-examples/tree/main/apps/react-router)
 - [solid](https://github.com/rossrobino/domco-examples/tree/main/apps/solid)

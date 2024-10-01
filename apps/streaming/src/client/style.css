@@ -3,3 +3,7 @@
 body {
 	margin: var(--size-6);
 }
+
+stream-data {
+	display: none;
+}
