@@ -1,0 +1,15 @@
+{
+	"name": "domco-htmx",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"check": "tsc",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"htmx.org": "^2.0.3"
+	}
+}
