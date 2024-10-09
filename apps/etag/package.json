@@ -1,0 +1,12 @@
+{
+	"name": "domco-etag",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"check": "tsc",
+		"build": "vite build",
+		"preview": "vite preview"
+	}
+}

@@ -17,6 +17,7 @@ Examples are located in the `apps/` directory.
 ### Do it yourself
 
 - [basic](https://github.com/rossrobino/domco-examples/tree/main/apps/basic)
+- [etag](https://github.com/rossrobino/domco-examples/tree/main/apps/etag)
 - [streaming](https://github.com/rossrobino/domco-examples/tree/main/apps/streaming)
 
 ### Framework examples
