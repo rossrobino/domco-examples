@@ -1,17 +1,17 @@
 import App from "@/app/App";
+import { Injector } from "@robino/html";
 import { html } from "client:page";
 import type { Handler } from "domco";
-import { Injector } from "domco/injector";
 import { renderToString, generateHydrationScript } from "solid-js/web";
 
 export const handler: Handler = (req) => {
 	const appHtml = renderToString(() => <App url={req.url} />);
 
 	if (appHtml) {
-		const page = new Injector(html).comment([
-			{ text: "root", children: appHtml },
-			{ text: "script", children: generateHydrationScript() },
-		]).html;
+		const page = new Injector(html)
+			.head(generateHydrationScript())
+			.comment("root", appHtml)
+			.toString();
 
 		return new Response(page, {
 			headers: {
