@@ -20,6 +20,17 @@
 
 			<p>Streaming with a custom element</p>
 		</main>
+		<footer>
+			<p>
+				Safari requires a minimum amount of bytes in the first chunk to support
+				streaming, see this
+				<a href="https://github.com/sveltejs/kit/issues/10315">issue</a>
+				for more details. So if your first chunk is not big enough, you may need
+				to add some more text like I am now or some other hack to get it to
+				work. But, it probably won't affect your site if your first chunk is
+				large enough.
+			</p>
+		</footer>
 
 		<!-- data will be streamed in here -->
 		%stream%
