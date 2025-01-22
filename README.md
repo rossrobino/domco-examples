@@ -23,6 +23,5 @@ Examples are located in the `apps/` directory.
 ### Framework examples
 
 - [htmx](https://github.com/rossrobino/domco-examples/tree/main/apps/htmx)
-- [react-router](https://github.com/rossrobino/domco-examples/tree/main/apps/react-router)
 - [solid](https://github.com/rossrobino/domco-examples/tree/main/apps/solid)
 - [vue](https://github.com/rossrobino/domco-examples/tree/main/apps/vue)
