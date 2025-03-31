@@ -13,16 +13,15 @@
 		"build": "turbo build"
 	},
 	"devDependencies": {
-		"@robino/prettier": "^1.0.0",
-		"@robino/tsconfig": "^1.0.0",
-		"domco": "^3.0.0",
-		"prettier": "^3.4.2",
-		"turbo": "^2.3.3",
-		"typescript": "^5.7.3",
-		"vite": "^6.0.11"
+		"@robino/prettier": "^1.0.2",
+		"@robino/tsconfig": "^1.0.2",
+		"domco": "^4.0.0",
+		"prettier": "^3.5.3",
+		"turbo": "^2.4.4",
+		"typescript": "^5.8.2",
+		"vite": "^6.2.4"
 	},
 	"dependencies": {
-		"@robino/html": "^0.0.1",
-		"uico": "^0.3.3"
+		"uico": "^0.7.0"
 	}
 }
