@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/circle.svg" />
+		<link rel="stylesheet" href="/client/style.css" />
+		<title>domco-openai</title>
+		<script type="module" src="/client/main.ts"></script>
+	</head>
+	<body class="prose">
+		<header><h1>OpenAI Responses API</h1></header>
+		<main>
+			<form action="/chat" method="POST">
+				<label for="message">Message</label>
+				<textarea name="message" id="message"></textarea>
+
+				<button>Send</button>
+			</form>
+
+			<h2>Assistant</h2>
+			<div id="assistant">
+				<!-- response goes here -->
+			</div>
+		</main>
+	</body>
+</html>
