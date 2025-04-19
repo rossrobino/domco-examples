@@ -1,5 +1,5 @@
 // src/server/+app.ts
-import * as ai from "@/lib/ai";
+import * as ai from "@/server/ai";
 import { html } from "client:page";
 import * as z from "zod";
 
