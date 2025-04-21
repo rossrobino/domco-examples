@@ -20,9 +20,13 @@ Examples are located in the `apps/` directory.
 - [etag](https://github.com/rossrobino/domco-examples/tree/main/apps/etag)
 - [streaming](https://github.com/rossrobino/domco-examples/tree/main/apps/streaming)
 
-### Framework examples
+### Framework
 
 - [htmx](https://github.com/rossrobino/domco-examples/tree/main/apps/htmx)
 - [react](https://github.com/rossrobino/domco-examples/tree/main/apps/react)
 - [solid](https://github.com/rossrobino/domco-examples/tree/main/apps/solid)
 - [vue](https://github.com/rossrobino/domco-examples/tree/main/apps/vue)
+
+### Library
+
+- [openai](https://github.com/rossrobino/domco-examples/tree/main/apps/openai)
