@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-	<h1>Vue</h1>
+	<h1>Vue + Elysia</h1>
 	<nav>
 		<ul>
 			<li><RouterLink to="/">Home</RouterLink></li>
