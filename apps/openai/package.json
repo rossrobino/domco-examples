@@ -10,8 +10,8 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"dotenv": "^16.5.0",
-		"openai": "^4.95.0",
-		"zod": "^3.24.3"
+		"dotenv": "^17.0.1",
+		"openai": "^5.8.2",
+		"zod": "^3.25.75"
 	}
 }
