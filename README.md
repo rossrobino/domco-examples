@@ -26,6 +26,7 @@ Examples are located in the `apps/` directory.
 - [react](https://github.com/rossrobino/domco-examples/tree/main/apps/react)
 - [solid](https://github.com/rossrobino/domco-examples/tree/main/apps/solid)
 - [vue](https://github.com/rossrobino/domco-examples/tree/main/apps/vue)
+- [vue-elysia](https://github.com/rossrobino/domco-examples/tree/main/apps/vue-elysia)
 
 ### Library
 
