@@ -23,6 +23,7 @@ Examples are located in the `apps/` directory.
 ### Framework
 
 - [htmx](https://github.com/rossrobino/domco-examples/tree/main/apps/htmx)
+- [µhtml + isum](https://github.com/rossrobino/domco-examples/tree/main/apps/isum)
 - [react](https://github.com/rossrobino/domco-examples/tree/main/apps/react)
 - [solid](https://github.com/rossrobino/domco-examples/tree/main/apps/solid)
 - [vue](https://github.com/rossrobino/domco-examples/tree/main/apps/vue)

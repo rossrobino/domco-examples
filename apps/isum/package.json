@@ -1,0 +1,15 @@
+{
+	"name": "domco-isum",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"check": "tsc",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"isum": "^1.1.0"
+	}
+}
