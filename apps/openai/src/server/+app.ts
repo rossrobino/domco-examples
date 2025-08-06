@@ -27,7 +27,7 @@ export default {
 				model: "gpt-4.1-nano", // cheapest model
 				stream: true,
 				previous_response_id: id, // null ok
-				store: true, // stored forever?
+				store: true, // stored in openai
 			});
 
 			const body = new ReadableStream<string>({

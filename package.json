@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
-	"packageManager": "npm@11.4.2",
+	"packageManager": "npm@11.5.2",
 	"workspaces": [
 		"packages/*",
 		"apps/*"
@@ -17,9 +17,9 @@
 		"@robino/tsconfig": "^1.1.0",
 		"domco": "^4.3.0",
 		"prettier": "^3.6.2",
-		"turbo": "^2.5.4",
-		"typescript": "^5.8.3",
-		"vite": "^7.0.2"
+		"turbo": "^2.5.5",
+		"typescript": "^5.9.2",
+		"vite": "^7.0.6"
 	},
 	"dependencies": {
 		"uico": "^0.10.3"
