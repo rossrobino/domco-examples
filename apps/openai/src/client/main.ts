@@ -16,10 +16,7 @@ form.addEventListener("submit", async function (e) {
 	const body = new FormData(form);
 
 	// make a request to our API
-	const res = await fetch(action, {
-		method,
-		body,
-	});
+	const res = await fetch(action, { method, body });
 
 	// obtain the reader from the body stream
 	const reader = res.body?.pipeThrough(new TextDecoderStream()).getReader();

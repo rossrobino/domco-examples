@@ -44,11 +44,7 @@ export default {
 		});
 
 		// return the stream as the response body
-		return new Response(body, {
-			headers: {
-				"Content-Type": "text/html",
-			},
-		});
+		return new Response(body, { headers: { "Content-Type": "text/html" } });
 	},
 } satisfies App;
 

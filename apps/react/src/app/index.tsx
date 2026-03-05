@@ -1,9 +1,8 @@
 import Counter from "@/app/counter";
 import Delay from "@/app/delay";
-import { src } from "client:script";
 import { Suspense } from "react";
 
-export default function App() {
+export default function App(props: { head?: React.JSX.Element }) {
 	return (
 		<html>
 			<head>
@@ -12,10 +11,7 @@ export default function App() {
 				<link rel="icon" type="image/svg+xml" href="/circle.svg" />
 				<title>domco-examples</title>
 				<meta name="description" content="domco-examples" />
-				<link
-					rel="stylesheet"
-					href={import.meta.env.DEV ? "/client/style.css" : src.style[0]}
-				/>
+				{props.head}
 			</head>
 			<body className="prose">
 				<h1>domco + React</h1>

@@ -6,16 +6,10 @@ export default {
 		const { pathname } = new URL(req.url);
 
 		if (pathname === "/") {
-			return new Response(html, {
-				headers: {
-					"Content-Type": "text/html",
-				},
-			});
+			return new Response(html, { headers: { "Content-Type": "text/html" } });
 		} else if (pathname === "/clicked") {
 			return new Response("Success!", {
-				headers: {
-					"Content-Type": "text/html",
-				},
+				headers: { "Content-Type": "text/html" },
 			});
 		}
 

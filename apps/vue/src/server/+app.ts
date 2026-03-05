@@ -18,9 +18,7 @@ export default {
 			const appHtml = await renderToString(app);
 
 			return new Response(html.replace("%root%", appHtml), {
-				headers: {
-					"Content-Type": "text/html",
-				},
+				headers: { "Content-Type": "text/html" },
 			});
 		}
 

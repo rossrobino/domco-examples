@@ -14,16 +14,8 @@ export const createApp = async () => {
 	const router = createRouter({
 		history: import.meta.env.SSR ? createMemoryHistory() : createWebHistory(),
 		routes: [
-			{
-				path: "/",
-				name: "home",
-				component: HomeView,
-			},
-			{
-				path: "/counter",
-				name: "counter",
-				component: CounterView,
-			},
+			{ path: "/", name: "home", component: HomeView },
+			{ path: "/counter", name: "counter", component: CounterView },
 		],
 	});
 

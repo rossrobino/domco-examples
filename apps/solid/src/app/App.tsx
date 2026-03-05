@@ -1,6 +1,6 @@
 /* @refresh reload */
-import { Router, Route } from "@solidjs/router";
-import { lazy, type Component } from "solid-js";
+import { Route, Router } from "@solidjs/router";
+import { type Component, lazy } from "solid-js";
 
 const Counter = lazy(() => import("./Counter"));
 

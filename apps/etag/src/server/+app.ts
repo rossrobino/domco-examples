@@ -11,10 +11,7 @@ export default {
 
 			return new Response(notModified ? null : html, {
 				status: notModified ? 304 : 200,
-				headers: {
-					"Content-Type": "text/html",
-					ETag: eTag,
-				},
+				headers: { "Content-Type": "text/html", ETag: eTag },
 			});
 		} else if (pathname === "/json") {
 			const jsonString = JSON.stringify({ hello: "world" });
@@ -24,10 +21,7 @@ export default {
 
 			return new Response(notModified ? null : jsonString, {
 				status: notModified ? 304 : 200,
-				headers: {
-					"Content-Type": "application/json",
-					ETag: eTag,
-				},
+				headers: { "Content-Type": "application/json", ETag: eTag },
 			});
 		}
 

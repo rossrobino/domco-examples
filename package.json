@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
-	"packageManager": "npm@11.6.2",
+	"packageManager": "npm@11.11.0",
 	"workspaces": [
 		"packages/*",
 		"apps/*"
@@ -13,15 +13,15 @@
 		"build": "turbo build"
 	},
 	"devDependencies": {
-		"@robino/prettier": "^2.0.2",
-		"@robino/tsconfig": "^1.1.0",
-		"domco": "^4.4.1",
-		"prettier": "^3.6.2",
-		"turbo": "^2.5.8",
+		"@robino/prettier": "^2.0.3",
+		"@robino/tsconfig": "^1.1.1",
+		"domco": "^5.0.2",
+		"prettier": "^3.8.1",
+		"turbo": "^2.8.13",
 		"typescript": "^5.9.3",
-		"vite": "^7.1.12"
+		"vite": "^7.3.1"
 	},
 	"dependencies": {
-		"uico": "^0.10.3"
+		"uico": "^0.12.0"
 	}
 }

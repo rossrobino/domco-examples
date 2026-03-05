@@ -1,5 +1,6 @@
 import App from "@/app";
-import { src } from "client:script";
+import * as script from "client:script";
+import * as style from "client:style";
 import { StrictMode } from "react";
 import { renderToReadableStream } from "react-dom/server.edge";
 
@@ -8,15 +9,11 @@ export default {
 		return new Response(
 			await renderToReadableStream(
 				<StrictMode>
-					<App />
+					<App head={<link rel="stylesheet" href={style.src.style[0]} />} />
 				</StrictMode>,
-				{ bootstrapModules: src.module },
+				{ bootstrapModules: script.src.module },
 			),
-			{
-				headers: {
-					"content-type": "text/html",
-				},
-			},
+			{ headers: { "content-type": "text/html" } },
 		);
 	},
 };
